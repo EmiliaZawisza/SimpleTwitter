@@ -7,7 +7,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value="1q2w#E$R"/>
             <property name="javax.persistence.jdbc.url"
@@ -15,7 +15,7 @@
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
             <property name="hibernate.jdbc.time_zone" value="UTC"/>
            <!-- <property name="hibernate.hbm2ddl.auto" value="update"/> -->
-            <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
             <property name = "hibernate.show_sql" value = "true" />
             <!--      <property name="hibernate.hbm2ddl.auto" value="update"/>-->
         </properties>
