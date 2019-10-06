@@ -1,4 +1,4 @@
-/* package model;
+package model;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -154,4 +154,4 @@ public class User {
             return this.user;
         }
     }
-}*/
+}
