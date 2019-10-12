@@ -72,5 +72,10 @@ public class UserDao extends AbstractDao {
             saveUser(currentUser);
         }
     }
+
+    public List<User> getAllUsers() {
+        TypedQuery typedQuery = entityManager.createQuery("select u from User u", User.class);
+        return typedQuery.getResultList();
+    }
 }
 
