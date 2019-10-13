@@ -13,7 +13,7 @@ public class TestDatabaseConnection {
 
         for(int i = 0; i<20; i++){
             User user = new User();
-            user.setDate_of_registration(new Date());
+            user.setDateOfRegistration(new Date());
             user.setLogin("Login" + i);
             user.setName("Name");
             user.setLastName("LastName");

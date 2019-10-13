@@ -26,7 +26,7 @@ public class UserService {
         } else if (isUserEmailExist(user.getEmail())) {
             return EMAIL_ERROR;
         } else {
-            user.setDate_of_registration(new Date());
+            user.setDateOfRegistration(new Date());
             userDao.saveUser(user);
             return SUCCESS;
         }

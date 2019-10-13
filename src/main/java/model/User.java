@@ -39,7 +39,7 @@ public class User {
     private Set<User> followed = new HashSet<>();
 
     @Column(name = "date_of_registratioin")
-    private Date date_of_registration;
+    private Date dateOfRegistration;
 
     public User() {
     }
@@ -109,14 +109,14 @@ public class User {
     }
 
     public User(Date date_of_registration) {
-        this.date_of_registration = date_of_registration;
+        this.dateOfRegistration = date_of_registration;
     }
-    public Date getDate_of_registration() {
-        return date_of_registration;
+    public Date getDateOfRegistration() {
+        return dateOfRegistration;
     }
 
-    public void setDate_of_registration(Date date_of_registration) {
-        this.date_of_registration = date_of_registration;
+    public void setDateOfRegistration(Date date_of_registration) {
+        this.dateOfRegistration = date_of_registration;
     }
 
 
@@ -131,7 +131,7 @@ public class User {
                 ", password='" + password + '\'' +
                 ", follows=" + follows +
                 ", followed=" + followed +
-                ", date_of_registration=" + date_of_registration +
+                ", date_of_registration=" + dateOfRegistration +
                 '}';
     }
 
